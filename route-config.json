@@ -1,4 +1,8 @@
 [
     { "path" :  "", "router"  : "./routes/web" },
-    { "path" :  "/sample", "router"  : "./routes/sample", "logic" : "./modules/logic/sample_logic" }
+    { "path" :  "/env", "router"  : "./routes/env", "logic" : "./modules/logic/appkeyvaluelogic" },
+    { "path" :  "/appkeyvalue", "router"  : "./routes/generic", "logic" : "./modules/logic/appkeyvaluelogic" },
+    { "path" :  "/clientapplication", "router"  : "./routes/generic", "logic" : "./modules/logic/clientapplicationlogic" }
+
+
 ]
